@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home"
+		},
+		{
+			"path":"pages/home/aboutus/aboutus"
+		},
+		{
+			"path":"pages/home/projectintroduction/projectintroduction"
+		},
+		{
+			"path":"pages/tools/tools"
+		},
+		{
+			"path":"pages/investgate/investgate"
+		}
+	],
+	
+	/* 全局配置 */
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "NJU春华秋实",
+		"navigationBarBackgroundColor": "#F80",
+		"backgroundColor": "#F5F5F5",
+		"enablePullDownRefresh": true
+	},
+	"tabBar":{
+		"color": "#808080",
+		 "selectedColor": "#FF8B00",
+		 "list":[
+			 {
+				 "pagePath":"pages/home/home",
+				 "text":"首页",
+				 "iconPath":"static/icon/tabbar/index.png",
+				 "selectedIconPath":"static/icon/tabbar/index-h.png"
+			 },
+			 {
+				 "pagePath":"pages/investgate/investgate",
+				 "text":"调研",
+				 "iconPath":"static/icon/tabbar/investigation.png",
+				 "selectedIconPath":"static/icon/tabbar/investigation-h.png"
+			 },
+			 {
+				 "pagePath":"pages/tools/tools",
+				 "text":"工具",
+				 "iconPath":"static/icon/tabbar/tools.png",
+				 "selectedIconPath":"static/icon/tabbar/tools-h.png"
+			 }
+		 ]
+	}
+}
